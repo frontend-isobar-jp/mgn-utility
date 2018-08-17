@@ -12,6 +12,8 @@ ___
 ```
 npm i mgn-utility -S
 ```
+## Or Download raw data
+[↓ download "mgn-utility.js"](https://raw.githubusercontent.com/frontend-isobar-jp/mgn-utility/master/src/mgn-utility.js)
 
 ___
 
