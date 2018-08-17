@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>mgn-utility</title>
+	<meta name="description" content="Compiling function that can utilize descriptors similar to jQuery such as addClass, removeClass.">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<style>
+		body { background: #FFF; margin: 0px; padding: 40px 20px; overflow: hidden; overflow: auto;}
+		h1, h2, h3 { margin: 0; padding: 0; }
+		img { max-width: 100%; height: auto; }
+		section { margin-top: 60px; }
+		section > section { margin-top: 40px; }
+		h2 { margin-bottom: 20px; border-bottom: 1px solid #CCC; }
+		h3 { margin-bottom: 20px; font-size: 1em; }
+		h3:before { content: ":: ";  }
+	</style>
+
+</head>
+<body>
+
+	<h1>mgn-utility</h1>
+	<p>Compiling function that can utilize descriptors similar to jQuery such as addClass, removeClass.</p>
+	<p><a href="https://github.com/frontend-isobar-jp/mgn-utility">https://github.com/frontend-isobar-jp/mgn-utility</a></p>
+
+	<section>
+		<h2>AddClass</h2>
+		<p id="example">AddClass 1</p>
+		<p class="example">AddClass 2</p>
+		<p class="example">AddClass 2</p>
+		<p class="example">AddClass 2</p>
+	</section>
+
+	<section>
+		<h2>SetCss</h2>
+		<p id="example2">SetCss</p>
+	</section>
+
+	<section>
+		<h2>Not</h2>
+		<p><a href="#" class="example3">example</a></a>
+		<p><a href="#" class="example3 ignore">ignored element</a></a>
+	</section>
+
+	<script src="./bundle.js"></script>
+
+</body>
+</html>
