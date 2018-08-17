@@ -1,9 +1,9 @@
 /*
 
-mgn-utility
+Megane Template
 
-GitHub: https://github.com/dsflon/
-License: dsflon All Rights Reserved.
+Website: http://megane-template.com/
+License: Dentsu Isobar All Rights Reserved.
 
 */
 
